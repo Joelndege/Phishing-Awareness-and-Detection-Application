@@ -18,7 +18,7 @@ Open `index.html` in a modern browser. No build step, server, or third-party run
 
 ## Repository and GitHub Pages
 
-The intended repository URL is <https://github.com/jolechaula/phishing-awareness-detection>. The portfolio links use this address. Create that repository under the `jolechaula` GitHub account and push these project files to its `main` branch. Add the lecturer as a collaborator at `stanslausphillimon@gmail.com`.
+The repository is <https://github.com/Joelndege/Phishing-Awareness-and-Detection-Application>. The portfolio links use this address. The lecturer collaborator requested for this project is `stanslausphillimon@gmail.com`.
 
 The repository includes a GitHub Actions workflow for Pages. In repository **Settings → Pages**, set the build and deployment source to **GitHub Actions**. The workflow publishes the site whenever changes are pushed to `main`; GitHub Pages will show the public URL after deployment completes.
 

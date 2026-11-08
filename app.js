@@ -1,5 +1,5 @@
 // GitHub repository requested for this project.
-const REPOSITORY_URL = "https://github.com/jolechaula/phishing-awareness-detection";
+const REPOSITORY_URL = "https://github.com/Joelndege/Phishing-Awareness-and-Detection-Application";
 document.querySelectorAll("[data-repo]").forEach(link => {
   link.href = REPOSITORY_URL;
 });
