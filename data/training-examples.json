@@ -1,0 +1,39 @@
+[
+  {
+    "id": "example-01",
+    "label": "suspicious_training_example",
+    "sender": "Campus IT Help <security@campus-login-help.test>",
+    "subject": "URGENT: Your student account closes today",
+    "body": "Your account will be deleted in 30 minutes. Confirm your password and one-time code at https://campus-login-help.test/verify",
+    "discussion_notes": [
+      "Time pressure and an account-closure threat",
+      "Password and one-time-code request",
+      "Sender and link use an unfamiliar domain"
+    ],
+    "safe_domain_note": "The .test top-level domain is reserved for testing and examples. No link should be opened."
+  },
+  {
+    "id": "example-02",
+    "label": "benign_training_example",
+    "sender": "Library Desk <library@university.example>",
+    "subject": "Reminder: borrowed book due Friday",
+    "body": "This is a reminder that your borrowed book is due Friday. Visit the library desk or use the library website you normally use if you need to renew it.",
+    "discussion_notes": [
+      "Expected context matters; a familiar topic alone does not authenticate a sender",
+      "No unexpected sign-in link or sensitive-information request is present"
+    ],
+    "safe_domain_note": "The .example domain is reserved for documentation. This is fictional sample content."
+  },
+  {
+    "id": "example-03",
+    "label": "needs_independent_verification",
+    "sender": "Office Admin <admin@school.example>",
+    "subject": "Please review the updated event agenda",
+    "body": "The agenda for next week's event has changed. Please review the attached document before the planning meeting.",
+    "discussion_notes": [
+      "An attachment can be expected or unexpected depending on context",
+      "Confirm unexpected files with the sender through a known contact method"
+    ],
+    "safe_domain_note": "The .example domain is reserved for documentation. No real attachment is included."
+  }
+]
